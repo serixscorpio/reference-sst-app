@@ -13,6 +13,13 @@ export interface Article {
   url: string;
 }
 
+export interface Comment {
+  articleID: string;
+  commentID: string;
+  text: string;
+}
+
 export interface Database {
   article: Article;
+  comment: Comment;
 }
