@@ -1,0 +1,11 @@
+{
+  "name": "@reference-sst-app/graphql",
+  "version": "0.0.0",
+  "type": "module",
+  "dependencies": {
+    "@genql/cli": "^2.10.0"
+  },
+  "overrides": {
+    "graphql": "16.6.0"
+  }
+}
