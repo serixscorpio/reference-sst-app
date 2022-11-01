@@ -20,3 +20,11 @@ export const title = style({
 export const url = style({
   color: vars.colors.text.dimmed,
 });
+
+export const footer = style({
+  marginTop: "0.8rem"
+});
+
+export const footerSeparator = style({
+  margin: "0 0.5rem",
+});
